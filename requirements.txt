@@ -1,0 +1,8 @@
+Flask
+sqlalchemy
+dataclasses
+psycopg2
+xmltodict
+flask_sqlalchemy
+python-dotenv
+requests
