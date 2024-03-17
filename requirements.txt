@@ -6,3 +6,4 @@ xmltodict
 flask_sqlalchemy
 python-dotenv
 requests
+pytest

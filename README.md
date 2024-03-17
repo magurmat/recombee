@@ -1,9 +1,12 @@
-This is solution for homework assignment given by recombee to Matus Magur.
+This is the solution for the homework assignment given by Recombee to Matus Magur.
 
-In requests.txt are exported curl example requests for created API.
-In Insomnia_2024-03-17.json are exported Insomnia requests for created API.
+To successfully run tests, DATABASE_URL in .env must be changed. "postgres" must be replaced with "localhost" and then
+run command pytest test.py
 
-To run application you need these commands:
+In requests.txt are exported curl example requests for the created API.
+In Insomnia_2024-03-17.json are exported Insomnia requests for the created API.
+
+To run the application you need these commands:
 
 1.  docker volume create --name=test_data
 2.  docker-compose build
